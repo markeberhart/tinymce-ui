@@ -1,0 +1,19 @@
+{
+  "name": "tinymce-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markeberhart/tinymce-ui.git"
+  },
+  "author": "Mark C Eberhart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markeberhart/tinymce-ui/issues"
+  },
+  "homepage": "https://github.com/markeberhart/tinymce-ui#readme"
+}
