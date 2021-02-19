@@ -1,4 +1,22 @@
 
+var articleTitleConfig = {
+    selector: '.article-title',
+    menubar: false,
+    inline: true,
+    plugins: [
+      'lists',
+      'powerpaste',
+      'autolink'
+    ],
+    toolbar: 'undo redo | bold italic underline | align',
+    valid_elements: 'strong,em,span[style],a[href]',
+    valid_styles: {
+      '*': 'font-size,font-family,color,text-decoration,text-align'
+    },
+    powerpaste_word_import: 'clean',
+    powerpaste_html_import: 'clean',
+  };
+
 var emailHeaderConfig = {
     selector: '.tinymce-heading',
     menubar: false,
@@ -17,8 +35,8 @@ var emailHeaderConfig = {
     powerpaste_html_import: 'clean',
   };
   
-  var emailBodyConfig = {
-    selector: '.tinymce-body',
+  var articleBodyConfig = {
+    selector: '.article-body',
     menubar: false,
     inline: true,
     plugins: [
@@ -40,6 +58,7 @@ var emailHeaderConfig = {
     powerpaste_html_import: 'clean',
   };
   
-  tinymce.init(emailHeaderConfig);
-  tinymce.init(emailBodyConfig);
+  tinymce.init(articleTitleConfig);
+  //tinymce.init(emailHeaderConfig);
+  tinymce.init(articleBodyConfig);
   
