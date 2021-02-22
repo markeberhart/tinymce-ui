@@ -17,3 +17,4 @@ Start http server in Chrome by typing:
 `http-server ./`
 then opening following link:
 http://127.0.0.1:8080/index2.html
+
